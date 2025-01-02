@@ -1,5 +1,10 @@
 package Nagalearning.Tests;
 
 public class test {
-//naga
+
+ public static void main(String[] args) 
+ {
+	 System.out.println();
+	 
+ }
 }
