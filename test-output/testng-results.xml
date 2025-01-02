@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="451262" started-at="2024-08-16T13:57:57Z" finished-at="2024-08-16T14:05:28Z">
+    <groups>
+      <group name="purchase">
+        <method signature="SubmitOrder.SubmitOrder(java.util.HashMap)[pri:0, instance:Nagalearning.Tests.SubmitOrder@483f6d77]" name="SubmitOrder" class="Nagalearning.Tests.SubmitOrder"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test name="SubmitOrder" duration-ms="295114" started-at="2024-08-16T13:57:57Z" finished-at="2024-08-16T14:02:52Z">
+      <class name="Nagalearning.Tests.SubmitOrder">
+        <test-method status="PASS" signature="LunchApplication()[pri:0, instance:Nagalearning.Tests.SubmitOrder@483f6d77]" name="LunchApplication" is-config="true" duration-ms="134584" started-at="2024-08-16T13:57:57Z" finished-at="2024-08-16T14:00:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LunchApplication -->
+        <test-method status="PASS" signature="SubmitOrder(java.util.HashMap)[pri:0, instance:Nagalearning.Tests.SubmitOrder@483f6d77]" name="SubmitOrder" duration-ms="15134" started-at="2024-08-16T14:00:12Z" data-provider="getData" finished-at="2024-08-16T14:00:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Nagu@3009, emailid=nagu@gmail.com, produtName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method status="PASS" signature="CloseApplication()[pri:0, instance:Nagalearning.Tests.SubmitOrder@483f6d77]" name="CloseApplication" is-config="true" duration-ms="197" started-at="2024-08-16T14:00:27Z" finished-at="2024-08-16T14:00:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+        <test-method status="PASS" signature="LunchApplication()[pri:0, instance:Nagalearning.Tests.SubmitOrder@483f6d77]" name="LunchApplication" is-config="true" duration-ms="5159" started-at="2024-08-16T14:00:27Z" finished-at="2024-08-16T14:00:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LunchApplication -->
+        <test-method status="PASS" signature="SubmitOrder(java.util.HashMap)[pri:0, instance:Nagalearning.Tests.SubmitOrder@483f6d77]" name="SubmitOrder" duration-ms="3994" started-at="2024-08-16T14:00:32Z" data-provider="getData" finished-at="2024-08-16T14:00:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Nagu@3009, emailid=nagu@gmail.com, produtName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method status="PASS" signature="CloseApplication()[pri:0, instance:Nagalearning.Tests.SubmitOrder@483f6d77]" name="CloseApplication" is-config="true" duration-ms="295" started-at="2024-08-16T14:00:36Z" finished-at="2024-08-16T14:00:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+        <test-method status="PASS" signature="LunchApplication()[pri:0, instance:Nagalearning.Tests.SubmitOrder@483f6d77]" name="LunchApplication" is-config="true" duration-ms="134217" started-at="2024-08-16T14:00:37Z" finished-at="2024-08-16T14:02:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LunchApplication -->
+        <test-method status="PASS" signature="verfiyOrderDetails()[pri:0, instance:Nagalearning.Tests.SubmitOrder@483f6d77]" name="verfiyOrderDetails" duration-ms="833" started-at="2024-08-16T14:02:51Z" depends-on-methods="Nagalearning.Tests.SubmitOrder.SubmitOrder" finished-at="2024-08-16T14:02:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyOrderDetails -->
+        <test-method status="PASS" signature="CloseApplication()[pri:0, instance:Nagalearning.Tests.SubmitOrder@483f6d77]" name="CloseApplication" is-config="true" duration-ms="207" started-at="2024-08-16T14:02:52Z" finished-at="2024-08-16T14:02:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+      </class> <!-- Nagalearning.Tests.SubmitOrder -->
+    </test> <!-- SubmitOrder -->
+    <test name="errorvalidation" duration-ms="155305" started-at="2024-08-16T14:02:53Z" finished-at="2024-08-16T14:05:28Z">
+      <class name="Nagalearning.Tests.Errorvalidation">
+        <test-method status="PASS" signature="LunchApplication()[pri:0, instance:Nagalearning.Tests.Errorvalidation@2fb3536e]" name="LunchApplication" is-config="true" duration-ms="6189" started-at="2024-08-16T14:02:53Z" finished-at="2024-08-16T14:02:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LunchApplication -->
+        <test-method status="FAIL" signature="loginErrorValidation()[pri:0, instance:Nagalearning.Tests.Errorvalidation@2fb3536e]" name="loginErrorValidation" duration-ms="1445" started-at="2024-08-16T14:02:59Z" finished-at="2024-08-16T14:03:00Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email or te password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email or te password.]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at Nagalearning.Tests.Errorvalidation.loginErrorValidation(Errorvalidation.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method status="PASS" signature="CloseApplication()[pri:0, instance:Nagalearning.Tests.Errorvalidation@2fb3536e]" name="CloseApplication" is-config="true" duration-ms="269" started-at="2024-08-16T14:03:01Z" finished-at="2024-08-16T14:03:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+        <test-method status="PASS" signature="LunchApplication()[pri:0, instance:Nagalearning.Tests.Errorvalidation@2fb3536e]" name="LunchApplication" is-config="true" duration-ms="132915" started-at="2024-08-16T14:03:01Z" finished-at="2024-08-16T14:05:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LunchApplication -->
+        <test-method status="PASS" signature="productValidation()[pri:0, instance:Nagalearning.Tests.Errorvalidation@2fb3536e]" name="productValidation" duration-ms="13785" started-at="2024-08-16T14:05:14Z" finished-at="2024-08-16T14:05:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productValidation -->
+        <test-method status="PASS" signature="CloseApplication()[pri:0, instance:Nagalearning.Tests.Errorvalidation@2fb3536e]" name="CloseApplication" is-config="true" duration-ms="188" started-at="2024-08-16T14:05:28Z" finished-at="2024-08-16T14:05:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+      </class> <!-- Nagalearning.Tests.Errorvalidation -->
+    </test> <!-- errorvalidation -->
+  </suite> <!-- Suite -->
+</testng-results>

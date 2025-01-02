@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Nagalearning.Testcomponents.listners"/>
+  </listeners>
+  <test thread-count="5" name="errorvalidation(failed)">
+    <classes>
+      <class name="Nagalearning.Tests.Errorvalidation">
+        <methods>
+          <include name="loginErrorValidation"/>
+          <include name="LunchApplication"/>
+          <include name="CloseApplication"/>
+        </methods>
+      </class> <!-- Nagalearning.Tests.Errorvalidation -->
+    </classes>
+  </test> <!-- errorvalidation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
