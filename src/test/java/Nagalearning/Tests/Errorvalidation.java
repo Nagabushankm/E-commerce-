@@ -42,9 +42,10 @@ public class Errorvalidation extends TestComponets {
 		ProductCatlog.addProductToCart(Productname);
 		ProcutsCart cartlist = ProductCatlog.goToCart();
 		Boolean match = cartlist.userProductMatch("ZARA COAT 33");
-		Assert.assertTrue(match);
+		Assert.assertFalse(match);
 	//new line added 
 		//added
+		//tests
 
 	}
 }
